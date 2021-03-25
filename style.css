@@ -1,0 +1,176 @@
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('/home/sophie/projet/exercices/htmlcss/cv/polices/caviardreams/caviardreams-webfont.eot');
+    src: url('/home/sophie/projet/exercices/htmlcss/cv/polices/caviardreams/caviardreams-webfont.eot') format('embedded-opentype'),
+         url('/home/sophie/projet/exercices/htmlcss/cv/polices/caviardreams/caviardreams-webfont.woff2') format('woff2'),
+         url('/home/sophie/projet/exercices/htmlcss/cv/polices/caviardreams/caviardreams-webfont.woff') format('woff'),
+         url('/home/sophie/projet/exercices/htmlcss/cv/polices/caviardreams/Caviar_Dreams_Bold.ttf') format('truetype'),
+         url('/home/sophie/projet/exercices/htmlcss/cv/polices/caviardreams/caviardreams-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+  width: auto;
+  height: auto;
+  background-color: rgb(198,228,191,0,9);
+  border: 4px;
+  border-top : thick double;
+  border-left: thick double;
+  border-color: rgb(9,82,40);
+  font-family: 'caviar_dreamsregular', sans-serif;
+}
+header
+{
+  width: auto;
+  height: auto;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+  font-family: 'caviar_dreamsregular', sans-serif;
+}
+h1 /*tous les titres d'article*/
+{
+text-align: center;
+font-size: 27px;
+color: rgb(9,82,40);
+text-decoration: double underline;
+font-style : italic;
+font-weight: bolder
+}
+
+ul
+{
+list-style-type: none;
+
+}
+nav
+{
+  background-color: rgb(198,228,191);
+  height: 50px;
+}
+.ulheader
+{
+  font-size: 25px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align : center;
+  margin-right: 35px;
+}
+.formation /*pour avoir les liens en article comme du texte*/
+{
+  font-family: 'caviar_dreamsregular'sans-serif;
+  font-style: 18px;
+  color: black;
+  text-decoration: none;
+}
+a:hover /*pour faire ressortir les liens en article quand la souris passe dessus*/
+{
+  text-decoration: underline;
+  color: none;
+}
+a: visited: /*pour qu'une fois visités les liens ne ressortent pas*/
+{
+  text-decoration: none;
+}
+element
+{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-family: 'caviar_dreamsregular',sans-serif;
+}
+article
+{
+width: 30%;
+text-align: left;
+margin: 2%;
+border-top : thick double;
+border-left: thick double;
+border-color: rgb(9,82,40);
+font-family: 'caviar_dreamsregular', sans-serif;
+font-size: 19px;
+line-height: 2em;
+}
+
+.accueil
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+margin-left: 500px;
+}
+.pro
+{
+  width: 100%;
+}
+.description, .xppro
+{
+  list-style-type: circle;
+}
+.titre
+{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+.titre2
+{
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.soustitre
+{
+  text-decoration: underline;
+  color: rgb(9,82,40);
+}
+.soussoustitre
+{
+  font-style: italic;
+}
+img
+{
+float: left;
+margin-right: 5px;
+margin-top: -15px;
+width: 100px;
+height: 100px;
+}
+.reseauxsociaux,
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.contact
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 500px;
+  font-family: 'caviar_dreamsregular', sans-serif;
+  font-size: 18px;
+}
+footer
+{
+  font-size: 25px;
+  font-family:'caviar_dreamsregular', sans-serif;
+  width: auto;
+  height: auto;
+  display : flex;
+  flex-direction: column;
+  align-items : flex-end;
+  margin-right: 50px;
+  margin-top: 2%;
+}
